@@ -25,5 +25,5 @@ for studnets in Student_height:
 print(total_students)
 
 #calculate the average height of the student and print it.
-average_height = total_height / total_students
+average_height = round(total_height / total_students)
 print(average_height)
